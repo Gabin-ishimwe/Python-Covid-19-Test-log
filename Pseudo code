@@ -1,0 +1,121 @@
+In this project we are going to create an algorithm that will help a clinic store covid-19 test data of patients
+we will implement this project using a python module called 'tkinter',
+this module will help us create a Graphic User Interface(GUI) which will our user to fill in their inputs and stores them.
+we will also use functions, classes and dictionary to implement this algorithm
+
+
+*importing tkinter
+we will need to import tkinter module package which will help us create a GUI for our project
+*importing datetime
+we will need also to import datetime module as it will help us know each exact time our user stores information
+
+we will initialize the tkinter package through a command code root = TK() and root.mainloop()
+between these two lines of codes it is where we will create GUI for our user
+*root = Tk()
+
+
+create class storage:
+
+    method init():
+        initialize all these following instance variables
+        instance variable 1
+        * we write a code using this package which create a user input the clinic name
+
+        instance variable 2
+        * we write a code using this package which create a user input where the use will put their first name
+
+        instance variable 3
+        * we write a code using this package which create a user input where the user will put their last name
+
+        instance variable 4
+        * we will write another code using this package where the user will enter the name of the age
+
+        instance variable 5
+        * we will write another code using this package where the user will enter their gender
+
+        instance variable 6
+        * we will write another code using this package where the user will enter their nationality
+
+        instance variable 7
+        * we will write another code using this package where the user will enter their date of birth
+
+        instance variable 8
+        * we will write another code using this package where the user will enter their phone number
+
+        instance variable 9
+        * we will write another code using this package where the user will enter their test code
+
+        instance variable 10
+        * we write a code using this package which create a user input where the use will put their first name
+
+        instance variable 11
+        * we will create a dictionary which will store user input data
+
+
+    we will create a function for this button to perform that command of storing information
+    method store():
+    this method contains codes that will tell the button to perform(run) codes in this section
+
+        * instance variable 11(dictionary).append(instance variable1)(clinic name)
+        *instance variable 11(dictionary).append(instance variable 2)(first name)
+        *instance variable 11(dictionary).append(instance variable 3)(last name)
+        *instance variable 11(dictionary).append(instance variable 4)(gender)
+                .                                       .
+                .                                       .
+                .                                       .
+
+
+    as the user click the button after inputing the data, those information will be stored(appended) in the dictionary
+
+    this method will command our button to store every information in our dictionary
+
+    method textfile():
+    this method will create a textfile and give it mode of appending "a"
+        *file = open(textfile.txt, a)
+        *file.write(""
+        instance variable 11(dictionary)[][0]
+        instance variable 11(dictionary)[][1]
+        instance variable 11(dictionary)[][2]
+        instance variable 11(dictionary)[][3]
+                .
+                .
+                .
+
+        "")
+    in this textfile each time the user click the button after inputing every data in the dictionary, it will append(write) that data in the textfile
+
+    the textfile will store those data each time the user click the button after inputing every data
+
+
+* create a button using tkinter package and give it a command to call the method store() which will perform all the codes in that method
+this means that each time the user clicks the button, that button will perform (run) all those codes.
+*root.mainloop()
+
+
+
+TEST CASE
+
+* import unittest module
+
+class Test:
+    method 1:
+    check if the user inputs collect datatypes in each input field
+
+    method 2:
+    check what happens when the user doesn't input any data and clicks the button to submit
+
+    method 3:
+    check if all the information filled in the input field is stored in the text file
+
+    method 4:
+    check the password input if it is correct in give attempts we specified the program
+
+
+
+
+
+
+
+
+
+

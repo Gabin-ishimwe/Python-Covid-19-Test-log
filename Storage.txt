@@ -1,0 +1,4 @@
+ Number               Clinic              First name              Last name               Gender              ID              Nationality             Age             Location              Cite
+
+1                king faisal              gabin              ishimwe               male              34829849321493              rwandan             21             kanombe                kacyiru
+1                st monic              gabin              ishimwe               male              34243              rwandan             13             kanombe                kicukiro
